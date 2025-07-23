@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+    
+        img {
+            height: 170px;
+        }
+        #cc{
+        margin-top: 23px;
+        }
+        h2 {
+            margin: 20px;
+            margin-top: 30px;
+            margin-left: 0;
+        }
+
+        .image {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo {
+            margin-left: 700px;
+            height: 100px;
+        }
+        .modi img{
+            width: 1400px;
+            height: 400px;
+        }
+    
+        #information {
+            background-color: #e2e2e2;
+            max-width: 320px;
+            height: 450px;
+        }
+
+        #information li {
+            padding: 10px 10px 10px 10px;
+        }
+
+        h3 {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        #events {
+            background-color: #e2e2e2;
+            max-width: 320px;
+            height: 450px;
+        }
+
+        #events p {
+            padding: 0 25px 25px 25px;
+
+        }
+
+        #events h4 {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        #events h3 {
+            padding-top: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container #events {
+            margin-left: 50px;
+        }
+
+        .container .mapp {
+            margin-left: 50px;
+            background-color: #e2e2e2;
+            width: 320px;
+        }
+
+        .mapp p {
+            padding-left: 5px;
+            padding-top: 40px;
+        }
+
+        #secondpart {
+            background-color: white;
+            max-width: 400px;
+            height: 450px;
+        }
+        #secondpart p{
+            padding: 20px 20px 0 20px;
+        }
+        #whatsnew{
+            background-color: #e2e2e2;
+            max-width: 320px;
+            height: 450px;
+            margin-left: 89px;
+            margin-top: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+        #parttwo{
+            display: flex;
+        }
+        #photo{
+            background-color: white;
+            max-width: 320px;
+            height: 450px;
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+        #photo h3{
+            padding-left: 0;
+            padding-right: 75px;
+        }
+        #photo img{
+            padding-left:30px
+        }
+        #photo p{
+            padding-left: 13px;
+        
+        }
+        .first{
+            color:white;
+            border:none;
+            background-color: skyblue;
+            padding:15px 25px 15px 25px;
+            border-radius: 5px;
+        }
+        .second{
+            color:white;
+            border:none;
+            background-color: green;
+            padding:15px 25px 15px 25px;
+            border-radius: 5px;
+        }
+        .third{
+            color:white;
+            border:none;
+            background-color: red;
+            padding:15px 25px 15px 25px;
+            border-radius: 5px;
+            padding:15px 40px 15px 40px;
+            margin-bottom: 20px;
+        }
+        .fourth{
+            color:white;
+            border:none;
+            background-color: orange;
+            padding:15px 25px 15px 25px;
+            border-radius: 5px;
+        }
+        .fifth{
+            color:white;
+            border:none;
+            background-color: gray;
+            padding:15px 25px 15px 25px;
+            border-radius: 5px;
+        }
+        .sixth{
+            color:white;
+            border:none;
+            background-color: pink;
+            padding:15px 25px 15px 25px;
+            border-radius: 5px;
+        }
+        .ty{
+            display: flex;
+        }
+        .yu{
+            background-color: #e2e2e2;
+            max-width: 340px;
+            height: 300px;
+            margin-left: 130px;
+            margin-top: 20px;
+        }
+        .rt{
+            margin-left: 150px;
+        }
+        .blue{
+            background-color: #000536;
+            height: 300px;
+            width:1350px;
+            display: flex;
+        }
+       .blue h2{
+        color:white;
+        padding-left: 5px;
+        padding-top:0;
+       }
+       .blue li{
+        color:white;
+        padding-left:30px;
+        padding-bottom: 20px;
+       }
+       .nm{
+        padding-left:80px;
+        padding-top: 73px;
+       }
+       .blue img{
+        height:250px;
+        width:500px;
+        padding-left: 200px;
+        padding-top: 30px;
+       }
+       .bn{
+        height: 200px;
+        width:1350px;
+        background-color: white;
+       }
+       .gh{
+        height:100px;
+        width:250px;
+        padding-left: 50px;
+        padding-top: 40px;
+       }
+       .vb{
+        height:100px;
+        width:250px;
+        padding-left: 0;
+        padding-top: 40px;
+       }
+       .xc{
+        height:100px;
+        width:250px;
+        padding-left: 0;
+        padding-top: 40px;
+       }
+       .as{
+        height:100px;
+        width:250px;
+        padding-left: 0;
+        padding-top: 40px;
+       }
+       .mm{
+        height:100px;
+        width:250px;
+        padding-left: 0;
+        padding-top: 40px;
+       }
+       #black{
+        height:70px;
+        width:1350px;
+        background-color: #252729;
+       }
+       .link1{
+        color:white;
+        padding-left: 450px;
+        padding-top: 20px;
+       }
+       .link2{
+        color:white;
+        padding-left: 50px;
+        padding-top: 20px;
+       }
+       .link3{
+        color:white;
+        padding-left: 50px;
+        padding-top: 20px;
+       }
+       .link4{
+        color:white;
+        padding-left: 50px;
+        padding-top: 20px;
+       }
+       .links{
+        padding-top: 30px;
+       }
+       .black{
+        height:230px;
+        width:1350px;
+        background-color: black;
+       }
+       .black .a1{
+        color:white;
+        padding:30px 50px 10px 500px; 
+       }
+       .black .a2{
+        color:white;
+        padding:10px 50px 10px 370px; 
+       }
+       .black .a3{
+        color:white;
+        padding:10px 50px 10px 550px; 
+       }
+       .all{
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+       }
+       .all .s1{
+        color:black;
+       }
+       .all .s2{
+        color:black;
+       }
+       .all .s3{
+        color:black;
+       }
+       .all .s4{
+        color:black;
+       }
+       .all .s5{
+        color:black;
+       }
+       .all .s6{
+        color:black;
+       }
+       .all .s7{
+        color:black;
+       }
+       .all .s8{
+        color:black;
+       }
+       .all .s9{
+        color:black;
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="image">
+                <img
+                    src="https://images.news18.com/ibnkhabar/uploads/2024/01/Uttar-Pradesh-Emblem-Meaning-1-2024-01-93e86a040298de86e90678d9e9205993.jpg?impolicy=website&width=640&height=480">
+                <h2>DISTRICT PRAYAGRAJ</h2>
+                <h2 id="cc">प्रयागराज जिला</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Prayagraj_Mahakumbh_2025_Logo.jpg"class="logo">
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="all">
+
+            <a href="home.html" class="s1"> HOME </a>
+            <a href="about district" class="s2"> ABOUT DISTRICT </a>
+            <a href="maha kumbh 2025" class="s3"> MAHA KUMBH 2025 </a>
+            <a href="tourism" class="s4"> TOURISM </a>
+            <a href="eoffice" class="s5"> EOFFICE </a>
+            <a href="directory" class="s6"> DIRECTORY </a>
+            <a href="election panel" class="s7"> ELECTION PANEL </a>
+            <a href="departments" class="s8"> DEPARTMENTS </a>
+            <a href="notices" class="s9"> NOTICES </a>
+
+        </div>
+
+        <div class="modi">
+            <img src="https://cdn.s3waas.gov.in/s3cd00692c3bfe59267d5ecfac5310286c/uploads/2024/11/2024112516.png">
+        </div>
+
+        <div class="container">
+            <div id="information">
+
+                <h3> INFORMATION </h3>
+                <ul>
+                    <li>DM Inspection Reports</li>
+                    <li>Know More About Prayagraj</li>
+                    <li>Land Acquisition Proceedings</li>
+                    <li>Portal for Right to INFORMATION</li>
+                    <li>Act-2005</li>
+                    <li>Telephone Directory</li>
+                    <li>Blood Donor Pool</li>
+                    <li>Public Holidays</li>
+                    <li>Voters Service Portal</li>
+                </ul>
+            </div>
+
+
+
+            <div id="events">
+                <h4>Events</h4>
+                <h3>Maha Kubh 2025</h3><br>
+                <p>The Maha Kumbh Mela(the first of the scared pitcher) is achored in hindu mythology. It is the worlds
+                    largest
+                    public gathering and colective act of faith. this congregation, primarily, includes ascentic,
+                    saints,
+                    sadhus, kalpvasis and pilgrims from all walks of life. Kumbh Mela, in Hindusim, is a religious
+                    pilgrimage
+                    that is celebrated four[...]</p>
+                <p>13/01/2025-26/02/2025<br>
+                    Prayagraj,uttarpradesh</p>
+            </div>
+
+            <div class="mapp">
+                <h3> Quick Facts </h3>
+                <p>Prayagraj, formerly called Allahabad, is a metropolis in the Indian state of Uttar Pradesh. It is the
+                    administrative headquarters of the Prayagraj district, the most populous district in the state and
+                    13th most populous district in India and the Prayagraj division.</p>
+            </div>
+
+        </div>
+
+
+
+<div id="parttwo">
+        <div id="secondpart">
+            <h3> ABOUT PRAYAGRAJ </h3>
+            <p>Prayagraj is one of the oldest cities in India. It is crowned in ancient scriptures as ‘Prayag’ or
+                ‘Teertharaj’ and is considered the holiest of pilgrimage centres of India.<br>Historically, the city has
+                been a witness to many important events in India’s freedom struggle such as emergence of the first
+                Indian National Congress in 1885, the beginning of Mahatma Gandhi’s non-violence movement in 1920.
+
+                Geographically, Prayagraj is located at 25.45°N 81.84°E in the southern part of the Uttar Pradesh.<br> To
+                its south and southeast is the Bagelkhand region, to its east is middle Ganges valley of North India, or
+                Purvanchal, to its southwest is the Bundelkhand region, to its north and northeast is the Awadh region
+                and to its west along with Kaushambi it forms the part of Doab i.e the Lower Doab region. </p>
+        </div>
+
+
+        <div id="whatsnew">
+            <h3>What's New</h3>
+            <ul>
+                <li>Tender for Stationary Items, etc for Kasturba Gandhi Residential Girls’ Schools</li>
+                <li>Regarding Weekly Closing of Markets</li>
+                <li>District Survey Report – 2024 for River Bed Sand/Morrum Mining</li>
+                <li>District Survey Report – 2024 for Planning & Execution of Minor Mineral Excavation [In-situ Rock – Sandstone]</li>
+                <li>District Flood Management Plan 2024-25</li>
+            </ul>
+        </div>
+
+
+        <div id="photo">
+            <h3>DISTRICT MAGISTRATE</h3>
+               <img src="https://cdn.s3waas.gov.in/s3cd00692c3bfe59267d5ecfac5310286c/uploads/2024/10/2024101814.png"><br>
+               <p>Shri Ravindra Kumar Mandar<br>
+               District Magistrate & Collector</p>
+        </div>
+    </div>
+
+
+
+<div class="ty">
+    <div class="patthree">
+        <h2> FIND SERVICES </h2>
+        <input type="button" value="Grievance" class="first">&nbsp&nbsp&nbsp<input type="button" value="Certificates" class="second">&nbsp&nbsp&nbsp<input type="button" value="Bills" class="third"><br>
+        <input type="button" value="Supply" class="fourth">&nbsp&nbsp&nbsp<input type="button" value="Magistrial" class="fifth">&nbsp&nbsp&nbsp<input type="button" value="Social Security" class="sixth">
+    </div>
+
+    <div class="yu">
+       <h2> HELPLINE </h2>
+       <ul>
+        <li>CM Helpline 1076</li>
+        <li> Child Helpline 1098</li>
+        <li> Fire Service 101</li>
+        <li> Ambulance Service 108</li>
+        <li> Ambulance Helpline for Pregnant Women and Newborn Children 102</li>
+       </ul>
+    </div>
+
+
+    <div class="rt">
+        <ul>
+            <h2>EMERGENCY NUMBERS </h2>
+         <li>Women Power Line 1090</li>
+         <li> Police Emergency Service 112</li>
+         <li> Prayagraj City Helpline 1920 </li>
+         <li> Election Helpline 18001801950</li>
+         <li> NIC Service Desk 17867777765</li>
+        </ul>
+     </div>
+</div>
+
+
+
+    
+     
+        <div class="blue">
+            
+        <ul class="mn">
+            <h2>QUICK LINKS</h2>
+            <li> prayagraj division </li>
+            <li> Jansunwal-Samadhan </li>
+            <li> Census 2011 </li>
+            <li> Nivesh Mitra </li>
+            <li> Public Distribution System </li>
+        </ul>
+        <ul class="nm">
+            <li> UP Government Departments</li>
+            <li> Government Order </li>
+            <li> Bhulekh </li>
+            <li> e-District(Janhit Gurantee Act)</li>
+            <li> Prayagraj Municipal Corportation </li>
+        </ul>
+        <img src="https://cdnbbsr.s3waas.gov.in/s3cd4bb35c75ba84b4f39e547b1416fd35/uploads/2021/07/2021070714-1024x713.jpg">
+             </div>
+             
+
+
+
+             <div class="bn">
+              <img src="https://cdn.s3waas.gov.in/s3cd00692c3bfe59267d5ecfac5310286c/uploads/bfi_thumb/20180824100-olwcnshwlzdvz2vdeklfm1yzsr7xpkwdz5rg4l5z3c.png" class="gh">
+              <img src="https://cdn.s3waas.gov.in/s3cd00692c3bfe59267d5ecfac5310286c/uploads/bfi_thumb/2021071586-pa5acguyypkvxannvvyjk7odxrw08hg20f08xusgrs.png" class="vb">
+              <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053039.png" class="xc">
+              <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017110781.png" class="as">
+              <img src="https://cdn.s3waas.gov.in/s3cd00692c3bfe59267d5ecfac5310286c/uploads/bfi_thumb/2024100127-quwlb6703jxbfioi7zu58686ta5bmm0oqvefeav0fc.png" class="mm">
+             </div>
+    
+    </main>
+
+
+
+    <footer>
+        <div id="black">
+        <div class="links">
+            <a href="website policies.html" class=link1> Website Policies </a>
+            <a href="Help.html" class="link2"> Help </a>
+            <a href="Contact Us.html" class="link3"> Contact Us </a>
+            <a href="Feedback.html" class="link4"> Feedback</a>
+        </div>
+    </div>
+
+
+    <div class="black">
+       <p class="a1">Content Owned by District Administration</p>
+       <p class="a2">© District Prayagraj, Uttar Pradesh , Developed and hosted by rupalsingh0220@gmail.com,<br>
+        Ministry of Electronics & Information Technology, Government of India</p>
+        <p class="a3">Last Updated: Feb 12, 2025</p>
+    </div>
+    </footer>
+
+</body>
+
+</html>
